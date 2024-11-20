@@ -20,7 +20,7 @@ if hist_button: # se o botão for clicado
     st.plotly_chart(fig, use_container_width=True)
 
 # criar uma caixa de seleção
-build_scatter = st.checkbox('Criar um histograma')
+build_scatter = st.checkbox('Criar gráfico de dispersão')
 
 
 if build_scatter: # se a caixa de seleção for selecionada
